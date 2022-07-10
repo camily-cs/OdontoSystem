@@ -1,0 +1,36 @@
+.containerPag{
+   margin-left:240px;
+   margin-top: -760px;
+   background-color: #d3d3d3;
+}
+
+.containerSelect{
+    background-color: white;
+    padding-top: 20px;
+    height: 60px;
+}
+
+.select{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-top:-10px;
+    gap: 20px
+}
+
+select{
+    width : 250px;
+    height: 25px;
+} 
+
+.txtSelect{
+    margin-top: -2px;
+    margin-right: 5px
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+    padding-top: 20px
+}
+

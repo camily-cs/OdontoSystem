@@ -1,0 +1,37 @@
+.containerSidebar{
+    width: 240px;
+    height: 100vh;
+    background-color: #4169E8;
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+    padding-top: 20px
+}
+
+
+.iconPainel{
+    margin-left: 20px;
+    margin-top: -5px;
+    color: white;
+}
+
+.icons{
+    margin-left: 20px;
+    color: white;
+}
+
+.txt{
+    margin-left: 10px;
+    margin-top: -2px;
+    color: white;
+}
+
+.txt:hover{
+    color: black
+}
+
+.sair{
+    margin-left: 50px
+}
