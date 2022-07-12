@@ -15,7 +15,7 @@ function App() {
       <Routes>
         {/* renderizando paginas */}
         <Route path='/' exact element={<Index />} />
-        {/* <Route path="/listarPacientes" exact element={<listarPacientes/>} /> */}
+        <Route path="/listarPacientes" exact element={<listarPacientes/>} />
       </Routes>
     </Router>
   );

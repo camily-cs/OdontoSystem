@@ -1,6 +1,10 @@
 import "../index/style.css";
 import { Sidebar } from "../../components/Sidebar"
 import { HeaderPag } from "../../components/HeaderPag";
+import Calendar from "react-calendar";
+import Donut from "../../components/Donut";
+import AreaChart from "../../components/AreaChart";
+
 
 export const Index = () => {
     return(
@@ -12,11 +16,19 @@ export const Index = () => {
                     <div className="select">
                         <div className="row">
                             <h4 className="txtSelect">Período</h4>
-                            <select />
+                            <select>
+                                <option value="0" default></option>
+                                <option value="1">Há 1 semana</option>
+                                <option value="2">Há 1 mês</option>
+                                <option value="3">Há mais de um mês</option>
+                            </select>
                         </div>
                         <div className="row">
                             <h4 className="txtSelect">Dentista</h4>
-                            <select />
+                            <select>
+                                <option value="0" default></option>
+                                <option value="1">Dra Camily</option>
+                            </select>
                         </div>
                     </div>
                 </div>
@@ -39,20 +51,24 @@ export const Index = () => {
                     </div>
                 </div>
                 
-                <div className="dashboard">
-                    <div className="infoGraphic">
-                        <h4>Pacientes</h4>
+                <div className="chart">
+                    <div className="containerChart1">
+                        <h4 className="titleChart">Pacientes</h4>
+                        <div className="chart1">
+                            <Donut />
+                        </div>
                     </div>
 
-                    <div className="infoGraphic">
-                        <h4>Especialidades</h4>
+                    <div className="containerChart2">
+                        <h4 className="titleChart">Atendidos realizados</h4>
+                        <div className="chart2">
+                            <AreaChart />
+                        </div>
                     </div>
 
-                    <div className="infoGraphic">
-                        <h4>Conveniados</h4>
-                    </div>
-
-                    
+                    <div className="calendar">
+                        <Calendar />
+                    </div> 
                 </div>
 
                 

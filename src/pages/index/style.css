@@ -65,7 +65,7 @@ select{
     margin-left: 65px
 }
 
-.dashboard{
+.chart{
     display: flex;
     flex-direction: row;
     margin-left: 23px;
@@ -73,9 +73,32 @@ select{
     gap: 17px
 }
 
-.infoGraphic{
+.containerChart1{
     background-color: white;
-    width: 290px;
+    width: 380px;
+    height: 360px;   
+}
+
+.chart1{
+    margin-top:50px;
+}
+
+.chart2{
+    margin-top:-35px; 
+}
+
+.titleChart{
+    margin-top:1px;
+    margin-left: 10px;
+}
+
+.containerChart2{
+    background-color: white;
+    width: 448px;
     height: 360px;
-    
+}
+
+.calendar{
+    margin-top: 45px;
+    margin-right: 20px
 }
